@@ -7,11 +7,18 @@
      ```sh
      pip install virtualenv
      python -m venv venv
-     en bash: source venv/Scripts/activate 
-     ó en Windows . venv/Scripts/activate
+     source venv/Scripts/activate 
+     ```
+     - en Windows
+     ```sh
+         . venv/Scripts/activate
      ```
 3. Instalar las dependencias en \venv\Scripts\:
-   - pip install -r requirements.txt
+   ```sh
+    pip install -r requirements.txt 
+    ```
 4. Finalmente ejecutar alexa.py
 5. (Opcional) Actualizacion de dependencias en \:
-    - pip freeze > requirements.txt
+    ```sh
+     pip freeze > requirements.txt 
+     ```
