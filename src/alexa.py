@@ -8,7 +8,7 @@ import wikipedia
 import openai
 
 name='alexa'
-key= 'AIzaSyC6mJjI0G4RVJ0KHWS-HopjiGEzObYpF_0' # indicar api de youtube
+key= '' # indicar api de youtube
 openai.api_key= '' # indicar api de openai
 
 listener = sr.Recognizer()
